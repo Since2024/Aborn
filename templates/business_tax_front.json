@@ -1,0 +1,41 @@
+{
+  "forms": [
+    {
+      "name": "व्यवसाय कर फारम",
+      "form_type": "Business Tax Form",
+      "description": "Template for digitizing व्यवसाय कर फारम with OCR + Auto Fill",
+      "version": "1.1",
+      "source": "FirstChild Project - Since2024",
+      
+      "metadata": {
+        "image_filename": "business_tax_form_page1.jpg",
+        "paper_size_mm": {"width": 210, "height": 297},
+        "pixel_to_mm": 0.248,
+        "image_dimensions_px": {"width": 847, "height": 1197}
+      },
+      
+      "fields": [
+        {
+          "name": "business_name",
+          "label": "Business Name",
+          "type": "text_line",
+          "pixel_bbox": [100, 200, 400, 240],
+          "required": true,
+          "validation": {"type": "string", "min_length": 2}
+        },
+        {
+          "name": "tax_id",
+          "label": "Tax ID",
+          "type": "text_line",
+          "pixel_bbox": [100, 250, 300, 290],
+          "required": true,
+          "validation": {"type": "number", "length": 9}
+        },
+        {
+            
+        }
+      ]
+    }
+  ]
+}
+
