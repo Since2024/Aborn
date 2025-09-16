@@ -87,3 +87,4 @@ if __name__ == "__main__":
         lang="ne",
         confidence_threshold=0.7
     )
+    
